@@ -110,8 +110,8 @@ class FigurePanel(ipw.HBox):
         self.loading_context = FigurePanel.LoadingContext(self.loading_canvas)
         # Same for the reviewing canvas.
         review_msg = "Preparing review..."
-        self.draw_loading(self.reviewing_canvas, review_msg)
-        self.reviewing_canvas.save()
+        #self.draw_loading(self.reviewing_canvas, review_msg)
+        #self.reviewing_canvas.save()
         self.reviewing_context = FigurePanel.LoadingContext(
             self.reviewing_canvas,
             review_msg)
